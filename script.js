@@ -6,10 +6,12 @@ const person = {
 };
 
 let team=players;
-let team1=players.slice(0);
-for(let x on person){
-	let cap1=console.log(x,person[x]);
+for(let i=0;i<players.length;i++) {
+    let team1[i]=players[i];	
 }
+let cap1={}
+for(let x in person){
+	cap1[x]=person[x];
 }
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
