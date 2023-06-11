@@ -4,15 +4,9 @@ const person = {
   name: "John Doe",
   age: 80,
 };
-
 let team=players;
-for(let i=0;i<players.length;i++) {
-    let team1[i]=players[i];	
-}
-let cap1={}
-for(let x in person){
-	cap1[x]=person[x];
-}
+let team1=[...players];
+let cap1={...person}
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
